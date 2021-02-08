@@ -7,6 +7,10 @@
 
 /*Bar de navigation*/
 nav{
+  position: sticky;
+  background-color: #fff;
+  z-index: 100;
+  top: 15px;
   display: flex;
   height: 10vh;
   width: 95%;
@@ -71,3 +75,38 @@ nav{
 
   }  
 }
+
+
+
+/*showcase page home*/
+
+.showcase{
+  display: flex;
+  text-align: center;
+  place-items: center;
+  background-color: #f3f3f3;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.showcase button{
+  padding: 20px;
+  width: 500px;
+  margin: 20px;
+}
+
+.icone{
+  position: absolute;
+  bottom: 12%;
+  right: 10%;
+  font-size: 4rem;
+  color: rgb(35, 158, 225);
+}
+
+
+/*Showcase de ma page Interventions*/
+
+
