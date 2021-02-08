@@ -15,7 +15,6 @@ nav{
   height: 10vh;
   width: 95%;
   margin: 15px auto;
-  background-color: ;
   border-radius: 15px;
   place-items: center;
   padding: 15px;
@@ -27,13 +26,13 @@ nav{
 .first{
   flex: 2 1 40rem;
   font-size: 1.5rem;
-  color: rgb(35, 158, 225) ;
+  color: #4686EE;
 
 }
 
 
 .first h3{
-  color: rgb(35, 158, 225) ;
+  background-color: #4686EE;
 }
 
 .second{
@@ -46,12 +45,15 @@ nav{
 
 .img{
   width: 100px;
+  -webkit-box-shadow: -5px -5px 44px -21px rgba(0,0,0,0.35);
+  -moz-box-shadow: -5px -5px 44px -21px rgba(0,0,0,0.35);
+  box-shadow: -5px -5px 44px -21px rgba(0,0,0,0.35);
 }
 
-/**/
+/*Deuxieme cote bar de navigation*/
 
 .second h3{
-  color: rgb(35, 158, 225);
+  color: #4686EE;
 }
 
 .second p{
@@ -60,14 +62,16 @@ nav{
 }
 
 .btn{
-  background-color: rgb(35, 158, 225);
+  background-color: #4686EE;
   width: 80px;
   padding: 4px;
   border: none;
   cursor: pointer;
-  
 }
 
+.btn:focus{
+  outline: none;
+}
 
 
 @media screen and (max-width: 1100px){
@@ -75,38 +79,34 @@ nav{
     flex: 1 1 50rem;
 
   }  
-
-/*button de ma partie Home petit ecran*/
-
-.button{
-  width: 300px;
-}
-
-
 }
 
 
 
-/*showcase page home*/
+
+
+/*showcase de la page home*/
 
 .showcase{
   display: flex;
   text-align: center;
   place-items: center;
-  background-color: #f3f3f3;
+  background-color: #fff;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   flex-direction: column;
 }
 
 
 .button{
+  position: relative;
   padding: 20px;
   background-color: #fff;
   width: 600px;
   margin: 20px;
-  border: 2px solid rgb(46, 171, 196);
+  border: 2px solid #4686EE;
+
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -120,13 +120,23 @@ nav{
   color: rgb(46, 171, 196); ;
 }
 
+
+/*Icone ajout en forme de Plus*/
 .icone{
   position: absolute;
   bottom: 12%;
   right: 10%;
   font-size: 4rem;
   color: rgb(35, 158, 225);
+  cursor: pointer;
+  transition: .2s ease-in-out;
 }
+
+.icone:hover{
+  opacity: 0.8;
+}
+
+
 
 .link{
   color: #333;
@@ -134,6 +144,20 @@ nav{
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+
+/*notification*/
+.notif{
+  position: absolute;
+  top: -35px;
+  right: -19px;
+  padding: 10px;
+  border-radius: 100%;
+  width: 50px;
+  background-color: orange;
+  color: #fff;
+
 }
 
 /*Showcase de ma page Interventions*/
@@ -144,10 +168,16 @@ nav{
   display: flex;
   text-align: center;
   place-items: center;
-  background-color: #f3f3f3;
+  background-color:#fff;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   flex-direction: column;
 }
+
+
+
+/*Mes pentagone*/
+
+
 

@@ -10,13 +10,21 @@ import { GiBackwardTime } from "react-icons/gi";
 const Home = () => {
   return (
     <div className="showcase">
-      <Link className="link" to='/interventions'>
-      <div className="button"><h1><BsArrowRight/></h1> Mes interventions </div>
-      </Link>
+
+      <div id="pentagon" className="item1"></div>
+      <div id="pentagon" className="item2"></div>
+      <div id="pentagon" className="item3"></div>
+      <div id="pentagon" className="item4"></div>
+     
 
       <Link className="link" to='/interventions'>
-        <div className="button"><h1><GiBackwardTime/></h1>Historiques</div>
+      <div className="button"><h1><BsArrowRight/>
+      </h1> Mes interventions 
+      <div className="notif"><h3>3</h3></div>
+      </div>
       </Link>
+
+        <div className="button"><h1><GiBackwardTime/></h1>Historiques</div>
       
       <h1 className='icone'><AiFillPlusCircle/></h1>
 
