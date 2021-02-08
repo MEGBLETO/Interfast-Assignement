@@ -64,6 +64,7 @@ nav{
   width: 80px;
   padding: 4px;
   border: none;
+  cursor: pointer;
   
 }
 
@@ -74,6 +75,14 @@ nav{
     flex: 1 1 50rem;
 
   }  
+
+/*button de ma partie Home petit ecran*/
+
+.button{
+  width: 300px;
+}
+
+
 }
 
 
@@ -92,10 +101,23 @@ nav{
 }
 
 
-.showcase button{
+.button{
   padding: 20px;
-  width: 500px;
+  background-color: #fff;
+  width: 600px;
   margin: 20px;
+  border: 2px solid rgb(46, 171, 196);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  justify-content: space-around;
+
+}
+
+
+.button h1{
+  color: rgb(46, 171, 196); ;
 }
 
 .icone{
@@ -106,7 +128,26 @@ nav{
   color: rgb(35, 158, 225);
 }
 
+.link{
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 /*Showcase de ma page Interventions*/
 
+
+
+.showcase2{
+  display: flex;
+  text-align: center;
+  place-items: center;
+  background-color: #f3f3f3;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  flex-direction: column;
+}
 
